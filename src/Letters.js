@@ -1,7 +1,14 @@
-const upperCase = () => {
-	return [0x0391, 0x0392, 0x0393, 0x0394, 0x0395];
-}
+import React from 'react';
 
-module.exports = {
-	upperCase: upperCase
+const Letters = () => {
+    return [
+        {code: 0x0391, desc: 'Alpha'},
+        {code: 0x0392, desc: 'Beta'},
+        {code: 0x0393, desc: 'Gamma'},
+        {code: 0x0394, desc: 'Delta'},
+        {code: 0x0395, desc: 'Epsilon'}
+    ];
 };
+
+
+export default Letters;

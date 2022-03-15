@@ -1,24 +1,14 @@
 import React from 'react';
-import Letters from './Letters';
 
-const DisplayLetter = () => {
-
-
-	const letters = Letters.upperCase();
-	let letter = letters[0];
-
-	const generateLetter = () => {
-		console.log('hey');	
-	}
-
+const DisplayLetter = (props) => {
 
 
 	return (
 		<div>
-			<span>{String.fromCodePoint(letter)}</span>
+			<span>{String.fromCodePoint(props.letter)}</span>
 		</div>
 	)
-}
+};
 
 export default DisplayLetter;
 
