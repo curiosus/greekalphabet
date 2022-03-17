@@ -5,7 +5,7 @@ const DisplayLetter = (props) => {
 
 	return (
 		<div>
-			<span>{String.fromCodePoint(props.letter)}</span>
+			<span>{String.fromCodePoint(props.letter.code)}</span>
 		</div>
 	)
 };
