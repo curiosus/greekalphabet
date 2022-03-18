@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from './DisplayLetter.module.css';
 
 const DisplayLetter = (props) => {
 
 
 	return (
-		<div>
+		<div className={classes.answer}>
 			<span>{String.fromCodePoint(props.letter.code)}</span>
 		</div>
 	)
