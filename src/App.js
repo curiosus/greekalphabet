@@ -3,6 +3,7 @@ import DisplayLetter from './DisplayLetter';
 import AnswerChoices from './AnswerChoices';
 import Letters from './Letters';
 import Score from './Score';
+import classes from './App.module.css';
 
 const App = () => {
 
@@ -28,7 +29,7 @@ const App = () => {
     };
 
     return (
-        <div>
+        <div className={classes.style}>
             <h1>Greek Alphabet</h1>
             <Score score={score}/>
             <DisplayLetter letter={letter}/>

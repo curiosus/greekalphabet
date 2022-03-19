@@ -6,7 +6,21 @@ const Letters = () => {
         {code: 0x0392, desc: 'Beta'},
         {code: 0x0393, desc: 'Gamma'},
         {code: 0x0394, desc: 'Delta'},
-        {code: 0x0395, desc: 'Epsilon'}
+        {code: 0x0395, desc: 'Epsilon'},
+        // {code: 0x0396, desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''},
+        // {code: , desc: ''}
     ];
 };
 
