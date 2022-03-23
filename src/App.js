@@ -1,15 +1,17 @@
 import React, {useState} from 'react';
 import DisplayLetter from './DisplayLetter';
 import AnswerChoices from './AnswerChoices';
-import Letters from './Letters';
+import {upperCaseLetters} from './Letters';
 import Score from './Score';
 import classes from './App.module.css';
+
 
 const App = () => {
 
 
-    const generateLetter = (prev=Letters()[0]) => {
-        let letters = Letters().filter(lett => lett.code != prev.code );
+
+    const generateLetter = (prev=upperCaseLetters()[0]) => {
+        let letters = upperCaseLetters().filter(lett => lett.code != prev.code );
         return letters[Math.floor(Math.random() * letters.length)];
     };
 
