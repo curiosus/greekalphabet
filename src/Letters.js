@@ -1,4 +1,4 @@
-export const upperCaseLetters = () => {
+export const Letters = (numberToReturn=48) => {
         return [
             {code: 0x0391, desc: 'Alpha'},
             {code: 0x0392, desc: 'Beta'},
@@ -23,36 +23,31 @@ export const upperCaseLetters = () => {
             {code: 0x03A6, desc: 'Phi'},
             {code: 0x03A7, desc: 'Chi'},
             {code: 0x03A8, desc: 'Psi'},
-            {code: 0x03A9, desc: 'Omega'}
+            {code: 0x03A9, desc: 'Omega'},
+            {code: 0x03B1, desc: 'alpha'},
+            {code: 0x03B2, desc: 'beta'},
+            {code: 0x03B3, desc: 'gamma'},
+            {code: 0x03B4, desc: 'delta'},
+            {code: 0x03B5, desc: 'epsilon'},
+            {code: 0x03B6, desc: 'zeta'},
+            {code: 0x03B7, desc: 'eta'},
+            {code: 0x03B8, desc: 'theta'},
+            {code: 0x03B9, desc: 'iota'},
+            {code: 0x03BA, desc: 'kappa'},
+            {code: 0x03BB, desc: 'lambda'},
+            {code: 0x03BC, desc: 'mu'},
+            {code: 0x03BD, desc: 'nu'},
+            {code: 0x03BE, desc: 'xi'},
+            {code: 0x03BF, desc: 'omicron'},
+            {code: 0x03C0, desc: 'pi'},
+            {code: 0x03C1, desc: 'rho'},
+            {code: 0x03C3, desc: 'sigma'},
+            {code: 0x03C4, desc: 'tau'},
+            {code: 0x03C5, desc: 'upsilon'},
+            {code: 0x03C6, desc: 'phi'},
+            {code: 0x03C7, desc: 'chi'},
+            {code: 0x03C8, desc: 'psi'},
+            {code: 0x03C9, desc: 'omega'}
         ];
-};
-
-export const lowerCaseLetters = () => {
-    return [
-        {code: 0x03B1, desc: 'alpha'},
-        {code: 0x03B2, desc: 'beta'},
-        {code: 0x03B3, desc: 'gamma'},
-        {code: 0x03B4, desc: 'delta'},
-        {code: 0x03B5, desc: 'epsilon'},
-        {code: 0x03B6, desc: 'zeta'},
-        {code: 0x03B7, desc: 'eta'},
-        {code: 0x03B8, desc: 'theta'},
-        {code: 0x03B9, desc: 'iota'},
-        {code: 0x03BA, desc: 'kappa'},
-        {code: 0x03BB, desc: 'lambda'},
-        {code: 0x03BC, desc: 'mu'},
-        {code: 0x03BD, desc: 'nu'},
-        {code: 0x03BE, desc: 'xi'},
-        {code: 0x03BF, desc: 'omicron'},
-        {code: 0x03C0, desc: 'pi'},
-        {code: 0x03C1, desc: 'rho'},
-        {code: 0x03C3, desc: 'sigma'},
-        {code: 0x03C4, desc: 'tau'},
-        {code: 0x03C5, desc: 'upsilon'},
-        {code: 0x03C6, desc: 'phi'},
-        {code: 0x03C7, desc: 'chi'},
-        {code: 0x03C8, desc: 'psi'},
-        {code: 0x03C9, desc: 'omega'}
-    ];
 };
 

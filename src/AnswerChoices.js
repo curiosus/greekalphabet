@@ -1,5 +1,5 @@
 import React from 'react';
-import {upperCaseLetters} from './Letters';
+import {Letters} from './Letters';
 import classes from './AnswerChoices.module.css';
 
 const AnswerChoices = (props) => {
@@ -7,7 +7,7 @@ const AnswerChoices = (props) => {
 
     return (
         <div className={classes.answer}>
-            {upperCaseLetters().map((letter) =>
+            {Letters().map((letter) =>
                 <div key={letter.code}>
                     <label htmlFor={letter.code}>
                         <input onChange={() => props.onCheckAnswer(letter.code)} type="radio" id={letter.code} name="choices"
@@ -23,6 +23,3 @@ const AnswerChoices = (props) => {
 };
 
 export default AnswerChoices;
-/*
-
-			*/
