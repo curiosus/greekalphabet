@@ -8,6 +8,10 @@ module.exports = {
 		path: path.join(__dirname, 'dist'),
 		filename: 'bundle.js'
 	},
+	devServer: {
+		port: 9000
+	},
+	devtool: "source-map",
 	module: {
 		rules: [
 			{

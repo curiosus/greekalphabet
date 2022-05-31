@@ -1,6 +1,6 @@
 export const Letters = (numberToReturn=48) => {
         return [
-            {code: 0x0391, desc: 'Alpha'},
+            {code: 0x0391, desc: 'Alpha', case: 'upper'},
             {code: 0x0392, desc: 'Beta'},
             {code: 0x0393, desc: 'Gamma'},
             {code: 0x0394, desc: 'Delta'},
@@ -24,10 +24,10 @@ export const Letters = (numberToReturn=48) => {
             {code: 0x03A7, desc: 'Chi'},
             {code: 0x03A8, desc: 'Psi'},
             {code: 0x03A9, desc: 'Omega'},
-            {code: 0x03B1, desc: 'alpha'},
-            {code: 0x03B2, desc: 'beta'},
-            {code: 0x03B3, desc: 'gamma'},
-            {code: 0x03B4, desc: 'delta'},
+            {code: 0x03B1, desc: 'alpha', case: 'lower'},
+            {code: 0x03B2, desc: 'beta', case: 'lower'},
+            {code: 0x03B3, desc: 'gamma', case: 'lower'},
+            {code: 0x03B4, desc: 'delta', case: 'lower'},
             {code: 0x03B5, desc: 'epsilon'},
             {code: 0x03B6, desc: 'zeta'},
             {code: 0x03B7, desc: 'eta'},

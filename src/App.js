@@ -9,14 +9,17 @@ import classes from './App.module.css';
 const App = () => {
 
 
+    const [letterCase, setLetterCase] = useState("lower");
 
     const generateLetter = (prev=Letters()[0]) => {
-        let letters = Letters().filter(lett => lett.code != prev.code );
+        console.log(letterCase);
+        let letters = Letters().filter(lett => (lett.code != prev.code && lett.case === letterCase));
         return letters[Math.floor(Math.random() * letters.length)];
     };
 
     const [letter, setLetter] = useState(generateLetter());
     const [score, setScore] = useState(0);
+
 
 
     const handleAnswer = (answer) => {
